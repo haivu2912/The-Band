@@ -1,0 +1,117 @@
+/* Mobile */
+@media (max-width: 740px) {
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 48px;
+    }
+
+    #nav > li{
+        display: block;
+    }
+    
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 60px;
+    }
+
+    .s-col-full,
+    .s-btn-full-width{
+        width: 100%;
+    }
+    
+    .s-mt-8{
+        margin-top: 8px;
+    }
+
+    #content .member-img{
+        width: 40%;
+    }
+
+    .place-list{
+        margin-top: 16px;
+    }
+
+    .contact-form{
+        margin-top: 32px;
+    }
+
+    .ticket__header{
+        padding: 16px;
+    }
+
+    .ticket__header h2 {
+        font-size: 24px;
+    }
+
+    .ticket_pay {
+        margin: 16px 0;
+    }
+    .modal__body {
+        width: 80%;
+        height: 60%;
+    }
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+    .btn {
+        padding: 14px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px
+    }
+
+    #footer .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a {
+        margin: 0 8px
+    }
+
+    #footer p a {
+        display: inline-block;
+        padding: 12px 0;
+    }
+
+    .contact-infor {
+        line-height: 2;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .modal__body {
+        width: 80%;
+        height: 45%;
+    }
+}
